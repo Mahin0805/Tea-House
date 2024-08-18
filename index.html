@@ -26,11 +26,67 @@
         }
     </script>
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f5a8d9c68e.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --color: rgb(28, 28, 28);
+            --des-color: rgb(119, 119, 119);
+
+        }
+
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+
+        .title {
+            color: var(--color);
+            font-size: 45px;
+            font-weight: 800;
+        }
+
+        .description {
+            color: var(--des-color);
+            font-size: 16px;
+            font-weight: 500;
+        }
+    </style>
 </head>
 
-<body>
+<body class="manrope">
     <header>
-        
+        <section>
+            <div class="hero w-4/5 mx-auto sm:flex sm:items-center sm:justify-between  mt-14">
+                <div class="lg:w-1/2">
+                    <h1 class=" sm:text-7xl text-6xl font-extrabold text-[#1C1C1C] mb-8">
+                        It's good <br>
+                        tea time at The Tea House
+                    </h1>
+                    <p class="text-lg font-medium text-[#777777] mb-8">
+                        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button
+                        class="text-xl font-bold text-white p-4 bg-gradient-to-r from-[#FF0000] to-[#FF8938] rounded-xl">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                    </button>
+                </div>
+                <div class="relative ">
+                    <img src="image/banner.png" alt="">
+                    <div class=" flex items-center w-64 h-24 rounded-xl absolute bottom-9 left-20 bg-[#FFFFFF]">
+                        <i class="fa-solid fa-star text-[#FFC850] text-4xl px-6 py-4"></i>
+                        <div>
+                            <p class="text-3xl font-extrabold">5.00</p>
+                            <p class="text-base font-semibold">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
